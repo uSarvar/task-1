@@ -1,4 +1,4 @@
-CREATE DATABASE clients-info_db;
+-- CREATE DATABASE clients-info_db;
 
 CREATE TABLE customers (
   customerNumber SERIAL PRIMARY KEY,
@@ -15,5 +15,13 @@ CREATE TABLE customers (
   salesRepEmployeeNumber INT(10),
   creditLimit INT(33)
 );
-
-INSERT INTO customers VALUES ('Sarvar', 'Urazbaev', ');
+-- INSERT INTO customers VALUES ('John', 'Doe', 'John', '+998901234567');
+CREATE TABLE orders (
+  orderNumber SERIAL PRIMARY KEY,
+  orderDate 
+  requiredDate
+  shippedDate
+  status
+  comments
+  customerNumber
+)
